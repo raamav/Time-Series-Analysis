@@ -11,3 +11,9 @@ The goal is to forecast the monthly average CO2 concentration of 2018 and 2019. 
 Being able to predict restaurant visits accuractly is a neat application of forecasting techniques. In this case, we have the data for visits for a restaurant on a daily basis for 1+ years. From an analytic standpoint, a more nuanced version of forecasting will be attempted, one which incorporates exogenous variables.
 
 This data is an adapted version of a recently concluded competition on Kaggle
+
+
+## Forecasting Alcohol Sales
+The USP of the analysis is the three methods that have been used to get the predictions for the time-series, starting with Holt-Winter's (Triple Exponential Smoothing), to ARIMA (trained via Grid Search) finally culminating at forecasting using LSTMs. 
+
+Interestingly, it is the ARIMA based model that performs the best
